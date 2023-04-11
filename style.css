@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+        
+}
+body{
+    min-height: 100vh;
+    display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.card{
+    width: 400px;
+    
+}
+.card-info
+{
+    background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 76%);
+
+    
+}
+.card-info i{
+    color: #fff;
+}
+.profile-card h6{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.profile-card p{
+    text-align: center;
+}
+.profile-card
+{
+    width: 350px;
+    position:absolute;
+
+    padding: 10px;
+    top: 12%;
+    left: 5%;
+    
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+}
+.follow-btn
+{
+    width: auto;
+    padding: 7px 100px;
+    border-radius: 10px;
+}
+.send-btn
+{
+    padding: 7px 20px;
+    border-radius: 10px;   
+}
+.details-section
+{
+    margin-top: 70px;
+    padding: 0;
+}
+.likes-section
+{
+   
+    border-radius: 10px;
+    padding: 14px;
+    display: grid;
+
+    align-items: center;
+    background-color: #f7edff;
+}
+.img-bg 
+{
+    
+}
+.likes-ss
+{
+    text-align: center;
+}
+.likes-ss h3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.likes-ss p{
+    color: #7c7777;
+}
+.menu-tabs 
+{
+    font-size: 20px;
+    display: flex; 
+    padding: 10px;
+    border: 2px solid #eeeeee;
+    border-radius: 10px 10px 0px 0px;
+    justify-content: space-around;
+}
+.menu-tabs i{
+    color: #5c5858;
+}
+@media (max-width:767px) {
+    .profile-card
+    {
+        top: 3%;
+    }
+    .likes-section{
+        margin-right: 1rem;
+        margin-bottom: 20px;
+    }
+    
+}
+.Gallery-img
+{
+    padding: 15px;
+}
